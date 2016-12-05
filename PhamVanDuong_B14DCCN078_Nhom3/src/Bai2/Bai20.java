@@ -11,6 +11,7 @@ import java.util.*;
  */
 public class Bai20 {
     public static String convert( int n, int b ) {
+        if( n == 0 ) return "0";
         StringBuilder str = new StringBuilder("");
         String tmp = "0123456789ABCDEFGHIJKLMNOPQRSTIVWXYZ";
         while( n > 0 ) {
